@@ -1,0 +1,43 @@
+input {
+  background-color: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+}
+
+.input {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 80%;
+}
+
+button {
+  margin-right: 8px;
+  background-color: rgb(214, 213, 213);
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: #fff;
+  margin: 6px 4px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.todoItem > p {
+  flex: 1;
+}
+
+.todoItem--done {
+  text-decoration: line-through;
+}
